@@ -1,5 +1,4 @@
 # Flashcard-o-matic
-To view this App, visit [https://flashcards-thinkful.vercel.app](https://flashcards-thinkful.vercel.app).
 
 ## Description
 Flashcard-o-matic is a flashcard application designed to help students study online. Teachers can create decks of flashcards for the subjects they teach, and students can study these decks.
