@@ -66,7 +66,7 @@ function AddCard() {
                 </li>
                 <li className="breadcrumb-item active">Add Card</li>
             </ol>
-            <FormComponent card={newCard} handleChange={handleChange} handleSubmit={handleSubmit} deckName={deck.name} buttonText="Add Card" />
+            <FormComponent card={newCard} handleChange={handleChange} handleSubmit={handleSubmit} handleDone={handleDone} deckName={deck.name} buttonText="Save" doneButtonText="Done" />
         </div>
     );
 }

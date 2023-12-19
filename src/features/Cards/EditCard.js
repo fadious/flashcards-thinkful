@@ -76,7 +76,7 @@ function EditCard() {
                 </li>
                 <li className="breadcrumb-item active">Edit Card {cardId}</li>
             </ol>
-            <FormComponent card={card} handleChange={handleChange} handleSubmit={handleSubmit} deckName={deck.name} buttonText="Edit Card" />
+            <FormComponent card={card} handleChange={handleChange} handleSubmit={handleSubmit} handleDone={handleCancel} deckName={deck.name} buttonText="Submit" doneButtonText="Cancel" />
         </div>
     );
 }
