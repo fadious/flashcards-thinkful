@@ -35,6 +35,8 @@ function StudyDeck() {
             if (window.confirm("Restart cards?")) {
                 setCardNumber(1);
                 isFront(true);
+            } else {
+                history.push("/");
             }
         }
     }
